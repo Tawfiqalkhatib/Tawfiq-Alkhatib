@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tawfiq Wael Al-khatib's portfolio - Civil Engineering & Structural Design Expert">
+    <title>Tawfiq Alkhateb</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #121212; color: #ddd; }
+        header { background-color: #1e1e1e; color: #fff; padding: 20px; text-align: center; }
+        nav { display: flex; justify-content: center; background-color: #333; }
+        nav a { color: white; padding: 15px; text-decoration: none; }
+        nav a:hover { background-color: #555; color: #ffffff; }
+        .container { width: 80%; margin: auto; padding: 20px; }
+        .section { background: #1e1e1e; padding: 20px; margin: 20px 0; border-radius: 5px; box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); }
+        footer { text-align: center; padding: 10px; background: #1e1e1e; color: white; }
+        .profile-img { display: block; margin: 20px auto; width: 200px; border-radius: 10px; border: 3px solid #ddd; max-width: 100%; height: auto; }
+        a { color: #4DB6AC; }
+        @media screen and (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tawfiq Wael Al-khatib</h1>
+        <p>Specializing in Civil Engineering & Structural Design</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <img src="WhatsApp Image 2025-02-11 at 02.43.34_e8d7f4fb.jpg" alt="Tawfiq Wael Al-khatib" class="profile-img">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a Civil Engineer skilled in structural design, project management, and problem-solving. My expertise includes CAD modeling, blueprint drafting, and risk assessment. I have experience as a Structural Design Engineer and Site Engineer, handling various technical challenges.</p>
+        </div>
+        <div id="services" class="section">
+            <h2>Services</h2>
+            <ul>
+                <li>Structural Analysis & Design</li>
+                <li>Blueprint Drafting</li>
+                <li>Foundation Design</li>
+                <li>Renovation & Strengthening Plans</li>
+                <li>Quantity Surveying</li>
+                <li>Risk Assessment</li>
+            </ul>
+        </div>
+        <div id="portfolio" class="section">
+            <h2>Portfolio</h2>
+            <p>Showcasing my previous projects...</p>
+        </div>
+        <div id="testimonials" class="section">
+            <h2>Testimonials</h2>
+            <p>What my clients say...</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Name: Tawfiq Wael Al-khatib</p>
+            <p>Email: Tawfiq.Alkhateeb@outlook.com</p>
+            <p>Phone: +962798490619</p>
+            <p>Location: Amman, Jordan</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/tawfiq-al-khatib-9ba666278" target="_blank">Visit my LinkedIn</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Tawfiq Wael Al-khatib. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
